@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LastDefender!</string>
+    <string name="app_name">Particle Destroyer</string>
+<string name="set_preferences">Preferences</string>
+
+
+
+
+<string-array name="difficulties"><item>First Timer</item>
+<item>Experienced</item>
+<item>Veteran</item>
+<item>Masochist</item>
+</string-array>
+
+<string-array name="difficulties_ids"><item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+</string-array>
+</resources>

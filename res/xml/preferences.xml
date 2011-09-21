@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Preferences">
+		<CheckBoxPreference android:title="Vibrate"
+			android:defaultValue="false"
+			android:summary="When a base is destroyed your device will Vibrate, ooooh!"
+			android:key="vibrateOn" />
+		<ListPreference android:title="Difficulty"
+			android:entries="@array/difficulties" android:entryValues="@array/difficulties_ids"
+			android:defaultValue="1" android:key="difficulty" />
+	</PreferenceCategory>
+</PreferenceScreen>
